@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+//  jService API: has Jeopardy trivia questions and answers available to the public
+// as an open source api
+// http://jservice.io/
+// npx create-react-app jservice-api
+// cd jservices-api
+// npm start
+// under src- make components folder
+// in components folder, create Score.js
+// in App.js import Score
+
 import './App.css';
+import GetTrivia from './components/getTrivia';
+// import Score from "./components/Score";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Score /> */}
+      <GetTrivia />
     </div>
   );
 }
