@@ -1,38 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@600&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+* {
+  background-color: #0000FF;
+  font-family: 'Alexandria', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 25px;
+}
+
+#reg {
+  font-size: 25px;
+  vertical-align: super;
+}
+
 .App {
   text-align: center;
+  color: white;
+  margin: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#score {
+  color: #FFCC00;
+  font-size: 34px;
+  font-weight: 500;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#number {
+  color: white;
+  font-size: 28px;
+  font-family: 'Source Code Pro', monospace;
+  margin: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.buttons {
+  padding: 15px;
+  margin: 5px;
+}
+
+#decrease {
+  color: #1A2650;
+  background-color: #ff0000;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+#decrease:hover {
+  color: #ff0000;
+  background-color: #1A2650;
+}
+
+#increase {
+  color: #1A2650;
+  background-color: #00ff00;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+#increase:hover {
+  color: #00ff00;
+  background-color: #1A2650;
+}
+
+#reset {
+  color: #1A2650;
+  background-color: #00ffff;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+#reset:hover {
+  color: #00ffff;
+  background-color: #1A2650;
+}
+
+h2 {
+  font-size: 35px;
+  margin-top: 25px;
+}
+
+#triviabtn {
+  background-color: #FFCC00;
+  color: #1A2650;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+#triviabtn:hover {
+  color: #FFCC00;
+  background-color: #1A2650;
+}
+
+h3 {
+  color: #FFCC00;
+  margin: 5px;
+  font-size: 25px;
+}
+
+h4 {
+  color: #FFCC00;
+  margin: 5px;
+  font-size: 20px;
+}
+
+#points {
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+}
+
+#revealbtn {
+  color: white;
+  background-color: #1A2650;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+#revealbtn:hover {
+  color: #1A2650;
+  background-color: white;
+}
+
+#category {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#solution {
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 25px;
+  font-size: 10px;
 }
